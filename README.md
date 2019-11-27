@@ -19,7 +19,8 @@ HEADERS:
 BODY: 
      {
 	    "username":"example@gmail.com"
-     }  
+     } 
+A mail will be sent to the provided mail if it's been registered in the system earlier.     
  
 # End point 3:
 POST: http://localhost:8080/registration
@@ -30,6 +31,7 @@ BODY:
 	    "username":"example@gmail.com",
 	    "password":"123456"
      } 
+ A successfull registration mail will be sent to the provided mail.     
      
 # End point 4:
 PUT: http://localhost:8080/passwordChange
